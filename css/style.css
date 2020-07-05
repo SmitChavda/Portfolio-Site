@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+
+.background {
+
+    background-image: url("../images/4.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+
+.margin {
+    margin-left: 14rem;
+}
+
+.customization {
+    font-family: Pacifico;
+    color: aliceblue;
+    font-size: 6rem;
+}
+
+.font {
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.width {
+    height: 255px;
+}
+
+.swiper-wrapper {
+    height: 400px;
+}
+
+.swiper-slide {
+    height: 350px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 45px;
+    color: white;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.color {
+    color: white;
+    text-decoration: none;
+}
+
+.color:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.nav-link {
+    color: aliceblue !important;
+}
+
+.abc {
+    background-color: aliceblue;
+    font-family: 'Comic Neue', cursive;
+}
+
+@media screen and (max-width:960px) {
+    .margin {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .customization {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar-brand {
+        display: inline;
+    }
+
+    .wide {
+        height: 100px;
+    }
+}
